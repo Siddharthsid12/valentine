@@ -1,12 +1,12 @@
 const gifStages = [
     "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDhxMWtqNHlobm85bzl2NWplN3BteHdodmdzOWRlZXYyNWVoaDBmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cmr1OMJ2FN0B2/giphy.gif",    // 0 normal
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",             // 2 pleading
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",             // 3 sad
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazAxZTh5b3psNGc5aDUxMmJzMmFzYWdpanN6eXk3MHB1dmtqbXRyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FRKtps8Lew0moShhjv/giphy.gif",  // 1 confused
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3VreDQ0ejZoZWZ3eHgyMjVqems5ZXVqMW1uemNtNmV0eHVoOHF2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iZf4Xu65CDN9DIt19n/giphy.gif",             // 2 pleading
+    "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTh0ZXJtZWw4ZXZsZjJ0M3JwN3c3bWRjZWdtOHV3M3c0Njk3OWsxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DSyFdYa5BK6Qx1glHa/giphy.gif",             // 3 sad
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHdkMDF4bmoxZWZ6bnV0aHVwMDRhOHE5YmYwOXUwc2oxd3A4MXdnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YtVJ3zYc0pifNce7W1/giphy.gif",       // 4 sadder
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2wwNnV2bDc2Zms3cXNrOHo2dm80M2ppMHNiN2FmNWttaTQ1ZGNjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DV64b88DwofpGzuLgj/giphy.gif",             // 5 devastated
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa25jbnZhZHZmYWp0am5wZzNyMTV4c2Nxbzl4c3piNm5sbmlpaGY2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hSUFtRNPGWY2JCXI8g/giphy.gif",               // 6 very devastated
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFveGw0bTlxMGo1cHNtdjUyNzZ6a3NrenphZDluMHlzcDBrZThiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T6YUH5ZMuqNbau2KwD/giphy.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
