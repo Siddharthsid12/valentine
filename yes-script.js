@@ -1,13 +1,21 @@
-let musicPlaying = false
+let musicPlaying = true
 
 window.addEventListener('load', () => {
     launchConfetti()
 
-    // Autoplay music (works since user clicked Yes to get here)
+    // Autoplay music: start muted (bypasses browser policy), then unmute
     const music = document.getElementById('bg-music')
+    music.muted = true
     music.volume = 0.3
-    music.play().catch(() => { })
-    musicPlaying = true
+    music.play().then(() => {
+        music.muted = false
+    }).catch(() => {
+        // Fallback: unmute on first interaction
+        document.addEventListener('click', () => {
+            music.muted = false
+            music.play().catch(() => { })
+        }, { once: true })
+    })
     document.getElementById('music-toggle').textContent = '🔊'
 })
 
